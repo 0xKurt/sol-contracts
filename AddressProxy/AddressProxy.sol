@@ -6,7 +6,7 @@ pragma solidity <=0.8.0;
 /**
  * @title AddressProxy
  * @author Kurt Merbeth </www.merbeth.io>
- * @notice Stores a contract name and the address of a contract and is able to return the contract address by name.
+ * @notice Stores contract names and their addresses in a mapping.
  * @dev Addresses can be accessed by addresses["<contract name>"].
  *      In addition to the management of contract addresses in public 'addresses' mapping, several admins can be created and deleted. 
  *      The owner cannot be deleted from the admins mapping, but can be changed. 
